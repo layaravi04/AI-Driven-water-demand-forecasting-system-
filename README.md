@@ -2,11 +2,11 @@
 
 A comprehensive machine learning project that predicts urban water consumption using Linear Regression and ARIMA time-series models.
 
-## 📋 Project Overview
+## Project Overview
 
 This project addresses the critical challenge of water resource management in urban areas by implementing AI-powered forecasting models. The system predicts future water demand based on historical data, population trends, and environmental factors, enabling authorities to optimize water supply and reduce wastage.
 
-## 🎯 Key Features
+## Key Features
 
 - **Dual Model Approach**: Implements both Linear Regression and ARIMA models
 - **Realistic Data Simulation**: Generates synthetic urban water consumption data
@@ -14,7 +14,7 @@ This project addresses the critical challenge of water resource management in ur
 - **Rich Visualizations**: Creates detailed graphs and analysis charts
 - **Academic Documentation**: Includes detailed report suitable for project submissions
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -45,7 +45,7 @@ This will:
 - Generate visualizations
 - Save results to CSV and image files
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ieee/
@@ -61,7 +61,7 @@ ieee/
     └── correlation_heatmap.png
 ```
 
-## 📊 What the System Does
+## What the System Does
 
 ### 1. Data Generation
 Creates a realistic dataset with:
@@ -121,7 +121,7 @@ ARIMA Evaluation Metrics:
   R² Score: ~0.85
 ```
 
-## 📚 Documentation
+## Documentation
 
 For detailed explanations of:
 - How the models work
@@ -131,7 +131,7 @@ For detailed explanations of:
 
 See **PROJECT_REPORT.md**
 
-## 🎓 Academic Use
+## Academic Use
 
 This project is designed for:
 - **University Projects**: IEEE, Computer Science, Data Science courses
@@ -139,7 +139,7 @@ This project is designed for:
 - **Presentations**: Viva and project defense
 - **Documentation**: Report writing and technical documentation
 
-## 🔧 Customization
+## Customization
 
 ### Adjust Dataset Size
 ```python
@@ -154,7 +154,7 @@ forecaster.train_arima(order=(3, 1, 3))  # Different ARIMA configuration
 ### Modify Train-Test Split
 Edit the `test_size` parameter in `preprocess_data()` method.
 
-## 📝 Output Files
+## Output Files
 
 1. **water_consumption_dataset.csv**: Complete dataset in CSV format
 2. **visualizations/water_demand_forecasting_results.png**: Main results visualization
@@ -177,7 +177,7 @@ pip install --upgrade pandas numpy matplotlib seaborn scikit-learn statsmodels
 - Ensure matplotlib backend is properly configured
 - On some systems, you may need: `export MPLBACKEND=TkAgg`
 
-## 🤝 Contributing
+## Contributing
 
 This is an academic project. Feel free to:
 - Modify parameters for experimentation
@@ -185,20 +185,17 @@ This is an academic project. Feel free to:
 - Extend the dataset with more features
 - Improve visualizations
 
-## 📄 License
+##  License
 
 This project is provided for educational purposes.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built for IEEE/University project requirements
 - Uses standard ML libraries: scikit-learn, statsmodels
 - Inspired by real-world water management challenges
 
----
 
-**For detailed technical explanations, see PROJECT_REPORT.md**
 
-**Happy Forecasting! 🌊📊**
 
 
