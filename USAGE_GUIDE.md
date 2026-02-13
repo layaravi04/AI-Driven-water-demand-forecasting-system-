@@ -1,6 +1,6 @@
 # Quick Usage Guide
 
-## 🚀 Running the Project
+## Running the Project
 
 ### Step 1: Install Dependencies
 ```bash
@@ -19,7 +19,7 @@ After execution, you'll find:
 
 ---
 
-## 📊 Understanding the Output
+## Understanding the Output
 
 ### Console Output
 The script prints:
@@ -49,7 +49,7 @@ Contains 4 subplots:
 
 ---
 
-## 🎓 For Project Reports
+##  For Project Reports
 
 ### What to Include in Your Report
 
@@ -74,7 +74,7 @@ Contains 4 subplots:
 
 ---
 
-## 🔧 Customization Examples
+## Customization Examples
 
 ### Generate More Data
 ```python
@@ -99,7 +99,7 @@ sns.set_palette("Set2")  # Different color palette
 
 ---
 
-## 📝 For Presentations/Viva
+## For Presentations/Viva
 
 ### Key Points to Explain
 
@@ -123,7 +123,7 @@ sns.set_palette("Set2")  # Different color palette
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Issue: "ModuleNotFoundError"
 **Solution**: Install missing package
@@ -145,7 +145,7 @@ pip install <package_name>
 
 ---
 
-## 💡 Tips for Best Results
+## Tips for Best Results
 
 1. **For Better Accuracy**:
    - Generate more data (increase `n_months`)
@@ -162,9 +162,9 @@ pip install <package_name>
    - Explain the seasonal trends chart
    - Highlight the R² score (model accuracy)
 
----
 
-## 📚 Next Steps
+
+## Next Steps
 
 After running the basic project:
 
@@ -176,5 +176,6 @@ After running the basic project:
 ---
 
 **Need Help?** Refer to `PROJECT_REPORT.md` for detailed explanations!
+
 
 
