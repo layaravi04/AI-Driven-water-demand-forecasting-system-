@@ -99,7 +99,7 @@ Generates:
 - Seasonal consumption trends
 - Feature correlation heatmap
 
-## 📈 Expected Results
+## Expected Results
 
 After running the script, you should see:
 
@@ -193,6 +193,7 @@ This project is provided for educational purposes.
 - Built for IEEE/University project requirements
 - Uses standard ML libraries: scikit-learn, statsmodels
 - Inspired by real-world water management challenges
+
 
 
 
