@@ -3,7 +3,6 @@
 A comprehensive machine learning project that predicts urban water consumption using Linear Regression and ARIMA time-series models.
 
 ## Project Overview
-
 This project addresses the critical challenge of water resource management in urban areas by implementing AI-powered forecasting models. The system predicts future water demand based on historical data, population trends, and environmental factors, enabling authorities to optimize water supply and reduce wastage.
 
 ## Key Features
@@ -194,6 +193,7 @@ This project is provided for educational purposes.
 - Built for IEEE/University project requirements
 - Uses standard ML libraries: scikit-learn, statsmodels
 - Inspired by real-world water management challenges
+
 
 
 
