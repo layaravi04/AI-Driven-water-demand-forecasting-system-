@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Demand Forecast</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌊 Water Demand Forecast System</h1>
+            <p>Real-time water demand predictions using machine learning</p>
+        </header>
+
+        <nav class="controls">
+            <div class="zone-selector">
+                <label for="zoneSelect">Zone:</label>
+                <select id="zoneSelect">
+                    <option value="">All Zones</option>
+                    <option value="Z1">Zone 1 (Z1)</option>
+                    <option value="Z2">Zone 2 (Z2)</option>
+                    <option value="Z3">Zone 3 (Z3)</option>
+                </select>
+            </div>
+            <button id="refreshBtn" class="btn-primary">Refresh Data</button>
+            <button id="exportBtn" class="btn-secondary">Export CSV</button>
+        </nav>
+
+        <div class="dashboard">
+            <section class="chart-section">
+                <h2>Demand Forecast vs Actual</h2>
+                <canvas id="demandChart"></canvas>
+            </section>
+
+            <section class="stats-section">
+                <div class="stat-card">
+                    <h3>Average Demand</h3>
+                    <p id="avgDemand" class="stat-value">--</p>
+                    <span class="unit">Liters</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Peak Demand</h3>
+                    <p id="peakDemand" class="stat-value">--</p>
+                    <span class="unit">Liters</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Min Demand</h3>
+                    <p id="minDemand" class="stat-value">--</p>
+                    <span class="unit">Liters</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Accuracy</h3>
+                    <p id="accuracy" class="stat-value">--</p>
+                    <span class="unit">%</span>
+                </div>
+            </section>
+
+            <section class="chart-section">
+                <h2>Temperature vs Demand</h2>
+                <canvas id="temperatureChart"></canvas>
+            </section>
+
+            <section class="data-table-section">
+                <h2>Detailed Predictions</h2>
+                <table id="predictionsTable" class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Zone</th>
+                            <th>Actual Demand</th>
+                            <th>Predicted Demand</th>
+                            <th>Error %</th>
+                            <th>Temperature</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <tr><td colspan="6" class="loading">Loading data...</td></tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+
+        <footer>
+            <p>Last updated: <span id="lastUpdate">--</span></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
